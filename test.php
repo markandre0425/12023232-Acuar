@@ -1,0 +1,3 @@
+<?php
+echo 'pangalan mo';
+?>
