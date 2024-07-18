@@ -51,5 +51,3 @@ del temp.txt
 
 
 echo Task completed.
-
-return
