@@ -2,137 +2,24 @@
     2  cd linux_practice
     3  touch notes.txt
     4  ls
-    5  echo "Hello,Linux" > notes.txt
-    6  tail notes.txt
-    7  clear
-    8  ls
-    9  rm notes.txt
-   10  touch notes.txt
-   11  ls
-   12  echo "notes.txt" > notes.txt
-   13  cat notes.txt
-   14  echo "Hello, Linux!" > notes.txt
-   15  echo "This is a practical exam" notes.txt
-   16  head notes.txt
-   17  tail notes.txt
-   18  cat notes.txt
-   19  clear
-   20  echo "notes.txt" > notes.txt
-   21  cat notes.txt
-   22  echo "Hello,Linux!" >> notes.txt
-   23  echo "This is a practical exam" >> notes.txt
-   24  head notes.txt
-   25  tail notes.txt
-   26  cd .
-   27  mkdir subdir
-   28  mv notes.txt subdir
-   29  rm subdir practice_subdir
-   30  rn subdir to practice_subdir
-   31  ren subdir practice_subdir
-   32  rename subdir practice_subdir
-   33  rename --help
-   34* rename o practice_subdir subdir
-   35  rename practice_subdir subdir
-   36  ls
-   37  rename practice_subdir subdir
-   38  rename subdir practice_subdir
-   39  rename -h
-   40  rename -n practice_subdir subdir
-   41  mv subdir practice_subdir
-   42  ls
-   43  mv notes.txt linux_practice
-   44  cd practice_subdir
-   45  ls
-   46  mv notes.txt linux_practice
-   47  ls
-   48  mv notes.txt
-   49  cd .
-   50  ls
-   51  cd .
-   52  ls
-   53  cd 
-   54  ls
-   55  cd .
-   56  ls
-   57  cd .
-   58  ls
-   59  cd 
-   60  ls
-   61  cd 12023232-Acuar
-   62  ls
-   63  cd linux_practicd
-   64  cd linux_practice
-   65  ls
-   66  cd practice_subdir
-   67  la
-   68  ls
-   69  date
-   70  uptime
-   71  df -h
-   72  ssh -v
-   73  ssh --v
-   74  php -v
-   75  mysql -v
-   76  apache2 -h
-   77  apache -h
-   78  python3 -h
-   79  java -h
-   80  git repo clone https://github.com/markandre0425/12023232-Acuar.git
-   81  gh ls
-   82  ls
-   83  gh repo clone https://github.com/markandre0425/12023232-Acuar.git
-   84  ls
-   85  cd 12023232-Acuar
-   86  git checkout -b finalexam
-   87  history > exam_log.txt
-   88  git add exam_log.txt
-   89  git commit -m "Added exam_log.txt with command history"
-   90  git commit -am "Added exam_log.txt with command history"
-   91  gh auth login
-   92  git commit -am "Added exam_log.txt with command history"
-   93  gh commit -am "Added exam_log.txt with command history"
-   94  git push origin finalexam
-   95  git pull
-   96  git checkout finalexam
-   97  git push
-   98  git push --set-upstream origin finalexam
-   99  git push
-  100  git checkout finalexam
-  101  ls
-  102  cd .
-  103  ls
-  104  cd .
-  105  ls
-  106  cat testfile.txt
-  107  ls
-  108  cd .
-  109  ls
-  110  cd .
-  111  cd 
-  112  ls
-  113  cd 12023232-Acuar
-  114  ls
-  115  clear
-  116  git checkout finalexam
-  117  git status
-  118  git remote -v
-  119  git checkout finalexam
-  120  git checkout -b finalexam
-  121  git add .
-  122  git commit -m "Added exam_log.txt with command history"
-  123  git config --global user.email "markandre0425@gmail.com"
-  124  git commit -m "Added exam_log.txt with command history"
-  125* 
-  126  git commit -m "Added exam_log.txt with command history"
-  127  git config --global user.email "markandre0425@gmail.com
-"
-  128  git config --global user.name "markandre0425"
-  129  git commit -m "Added exam_log.txt with command history"
-  130  git push origin finalexam
-  131  ls
-  132  cd linux_practicr
-  133  cd linux_practice
-  134  ls
-  135  cd practice_subdir
-  136  ls
-  137  history >> exam_log.txt
+    5  echo "notes.txt" >> notes.txt
+    6  cat notes.txt
+    7  nano notes.txt
+    8  head notes.txt
+    9  tail notes.txt
+   10  mkdir subdir
+   11  mv notes.txt subdir
+   12  mv subdir practice_subdir
+   13  cd practice_subdir
+   14  mv notes.txt linux_practice
+   15  date
+   16  uptime
+   17  df -h
+   18  ssh -v
+   19  php -v
+   20  mysql -v
+   21  apache2 -v
+   22  python3 -v
+   23  java -version
+   24  touch exam_log.txt
+   25  history >> exam_log.txt
